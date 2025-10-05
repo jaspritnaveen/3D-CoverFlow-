@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Coverflow</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="nav-section">
+      <nav class="navbar">
+        <!-- Left part: logo + name -->
+        <div class="left-part">
+          <div class="logo">
+            <img src="Assets/logo.png" height="50px" width="50px" alt="Logo" />
+          </div>
+          <div class="company-name">3D Coverflow</div>
+        </div>
+
+        <!-- Hamburger icon -->
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Right part: nav links -->
+        <div class="right-part" id="nav-links">
+          <ul>
+            <li>
+              <a href="#home-content">Home</a>
+              <div class="line"></div>
+            </li>
+            <li>
+              <a href="#about-content">About</a>
+              <div class="line"></div>
+            </li>
+            <li>
+              <a href="#contact-content">Contact</a>
+              <div class="line"></div>
+            </li>
+            <li>
+              <a href="#footer-content">Github</a>
+              <div class="line"></div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <section class="home-page" id="home-content">
+      <div class="hero-content">
+        <h1>Experience the Future of Galleries</h1>
+        <p>
+          Bring your images to life with our stunning, responsive 3D Coverflow
+          gallery. A modern, interactive way to showcase your portfolio.
+        </p>
+        <div class="hero-buttons">
+          <a href="#" class="btn-primary">View Demo</a>
+          <a href="#" class="btn-secondary">Learn More</a>
+        </div>
+      </div>
+
+      <div class="feature-overview">
+        <h2>Key Features</h2>
+        <div class="feature-grid">
+          <div class="feature-item">
+            <i class="fa-solid fa-cube"></i>
+            <h3>True 3D Effect</h3>
+            <p>
+              Engaging rotation and depth for a realistic coverflow experience.
+            </p>
+          </div>
+          <div class="feature-item">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <h3>Fully Responsive</h3>
+            <p>Works flawlessly on desktop, tablet, and mobile devices.</p>
+          </div>
+          <div class="feature-item">
+            <i class="fa-solid fa-bolt"></i>
+            <h3>Blazing Fast</h3>
+            <p>
+              Optimized for performance with smooth transitions and quick
+              loading.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-page" id="about-content" style="display: none">
+      <div class="content">
+        <h1>Our Story</h1>
+        <p>Building innovative solutions for creative minds.</p>
+      </div>
+
+      <div class="about-section mission">
+        <h2>Our Mission</h2>
+        <p>
+          Our mission is to empower developers and designers with cutting-edge,
+          visually stunning components. We believe that interaction should be
+          seamless, and presentation should be unforgettable. The 3D Coverflow
+          was born from the desire to modernize the classic gallery view.
+        </p>
+      </div>
+
+      <div class="about-section history">
+        <h2>From Idea to Reality</h2>
+        <p>
+          Founded in 2024, 3D Coverflow began as a small passion project focused
+          on CSS-only 3D transformations. It quickly evolved into a robust,
+          framework-agnostic library used by thousands of websites worldwide. We
+          pride ourselves on clean code, extensive documentation, and an active
+          community.
+        </p>
+      </div>
+
+      <div class="about-section team">
+        <h2>The Team</h2>
+        <p>
+          We are a globally distributed team of creative developers, UX experts,
+          and performance engineers. We are united by a passion for pushing the
+          limits of what's possible on the modern web. We continually update the
+          library based on community feedback and the latest web standards.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-page" id="contact-content">
+      <div class="content">
+        <h1>Get In Touch</h1>
+        <p>Have a project in mind? Let's create something amazing together.</p>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-left contact-card">
+          <div id="connect">
+            <h4>Let's Connect</h4>
+            <p>
+              We're here to help bring your vision to life. Whether you need a
+              stunning gallery, a complete website redesign, or custom
+              development work, we'd love to hear from you.
+            </p>
+          </div>
+          <div class="contact-info">
+            <div class="info-item">
+              <div class="info-logo">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+
+              <div class="info-content">
+                <h5>Email</h5>
+                <p>hello@3dcoverflow.com</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-logo">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+
+              <div class="info-content">
+                <h5>Phone</h5>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-logo">
+                <i class="fa-solid fa-map-marker-alt"></i>
+              </div>
+
+              <div class="info-content">
+                <h5>Address</h5>
+                <p>123 Design Street, San Francisco, CA 94102</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-logo">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+
+              <div class="info-content">
+                <h5>Business Hours</h5>
+                <p>Monday - Friday: 9:00 AM - 6:00 PM PST</p>
+              </div>
+            </div>
+          </div>
+          <div class="social-media">
+            <h5>Follow Us</h5>
+
+            <div class="icon-div">
+              <ul>
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-right contact-card">
+          <form id="myform">
+            <div class="contact-data">
+              <div class="one">
+                <div>
+                  <label for="name" id="lab">Your Name</label>
+                </div>
+                <div>
+                  <input type="text" class="input-box" name="name" />
+                </div>
+                <span class="error" id="error-name"></span>
+              </div>
+
+              <div class="one">
+                <div><label for="email" id="lab">Email Address</label></div>
+                <div><input type="email" class="input-box" name="email" /></div>
+                <div class="error" id="error-email"></div>
+              </div>
+
+              <div class="one">
+                <div><label for="email" id="lab">Your Mobile</label></div>
+                <div><input type="email" class="input-box" name="email" /></div>
+                <div class="error" id="error-email"></div>
+              </div>
+
+              <div class="one">
+                <div><label for="subject" id="lab">Subject </label></div>
+                <div>
+                  <input type="text" class="input-box" name="subject" />
+                </div>
+                <div class="error" id="error-subject"></div>
+              </div>
+
+              <div class="one">
+                <div><label for="message" id="lab">Message</label></div>
+                <div>
+                  <textarea name="message" class="text-area-box"></textarea>
+                </div>
+                <div class="error" id="error-mssgg"></div>
+              </div>
+
+              <div class="btn">
+                <input type="submit" value="Send Message" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer-content">
+      <div class="footer-combine">
+        <div class="footer-left">
+          <p>
+            © 2025 3D Coverflow. All rights reserved. | Designed by Naveenkumar
+            R
+          </p>
+        </div>
+
+        <div class="footer-right">
+          <ul>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
