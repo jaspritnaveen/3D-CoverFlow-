@@ -18,7 +18,7 @@ formid.addEventListener("submit", (event) => {
     input.classList.remove("input-error");
   });
 
-  let valid = true;
+  // let valid = true;
 
   // Name Validation
   if (nameid.trim() === "") {
